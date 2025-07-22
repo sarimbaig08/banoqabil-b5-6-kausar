@@ -1,0 +1,82 @@
+h3{
+    display: inline-block;
+    margin: 20px;
+    height: 50px;
+}
+span{
+    /* display: block; */
+}
+.heading3{
+    display: none;
+    /* visibility: hidden; */
+}
+
+p span{
+    color: blue;
+}
+
+.productCard{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.productCard h5{
+    margin: 0;
+}
+
+.productCard p{
+    font-size: 10px;
+}
+
+.brandIcon{
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: sticky; */
+    top: 0px;
+    right: 50px;
+
+}
+
+
+.productCard .logo{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.shoeCard{
+    height: 160px;
+    width: 300px;
+    background-color: #2A2F40;
+    margin: auto;
+    display: flex;
+}
+.shoeImgContainer{
+    width: 50%;
+    height: 100%;
+    background-color: #FF6D39;
+    border-radius: 0 70px 70px 0;
+}
+.shoeImgContainer img{
+    margin-left: -30px;
+}
+.contentWrapper{
+    width: 50%;
+    height: 100%;
+
+}
+.contentWrapper ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+.contentWrapper ul svg{
+    height: 10px;
+    width: 10px;
+    
+}

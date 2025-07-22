@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    color: yellow;
+}
+
+.externalCssInfo{
+    color: aqua;
+}
+
+.container{
+    border: 5px solid black;
+    background-color: rgb(233, 220, 220);
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px 20px 30px 40px; /* top right bottom left */
+    text-align: center;
+}

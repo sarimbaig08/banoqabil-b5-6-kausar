@@ -4,7 +4,42 @@ Static Websites: Read only
 
 Dynamic Websites: Read and write or support user interactions
 
-Github 
+
 Html => Build website structure (content)
 Css => Styling (theme, colors, fonts)
 Js => Functionality, interactions
+
+Github => Creation of repository and pushing code
+
+Html all basic tags
+
+Lists
+
+URLS ( ANCHOR TAG )
+
+-Absolute url -> Navigate user to a external website
+-Relative url -> Navigate to pages with in the project
+
+-Folder Structure
+
+-Images
+
+-Input Fields
+
+-Block and inline elements
+-Meta Tags
+-Iframes
+-Video & Audio
+
+ITEMS TO BE COVERED:
+->Linking to a specific part of a page, same or other.
+->Html Tables
+->Forms submission
+
+-> Introduction to Css
+->3 ways to write css
+->Font colors, style, size, weight, bg color
+->Box sizing, Divs
+->Padding, Margin
+->Height, Width
+->
