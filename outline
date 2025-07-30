@@ -39,7 +39,30 @@ ITEMS TO BE COVERED:
 -> Introduction to Css
 ->3 ways to write css
 ->Font colors, style, size, weight, bg color
+->Box Model
 ->Box sizing, Divs
 ->Padding, Margin
 ->Height, Width
-->
+
+->Git & Github
+->Quiz 1
+-> flex
+-> positioning
+
+-> Link States (normal, hover, active, visited)
+-> Pseudo-classes (:hover, :focus, :nth-child)
+-> Tables
+
+
+Related Variants:
+Selector			Meaning
+tr:nth-child(odd)		1st, 3rd, 5th rows
+tr:nth-child(3)			Only 3rd row
+tr:first-child			Only the first row
+tr:last-child			Only the last row
+
+->Min max height, width
+
+-> em: its the values multiplied by the inherited font size. Eg ( div is having fs-20px, under it there is a p child which
+have fs-2em then 20px * 2 = 40px
+-> 
