@@ -65,4 +65,8 @@ tr:last-child			Only the last row
 
 -> em: its the values multiplied by the inherited font size. Eg ( div is having fs-20px, under it there is a p child which
 have fs-2em then 20px * 2 = 40px
--> 
+
+-> Media queries
+
+-> BOOTSTRAP
+--> Integration, Buttons, Colors, Padding, Margins, Navbars, Sliders, Modal
