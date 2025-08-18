@@ -71,3 +71,33 @@ have fs-2em then 20px * 2 = 40px
 -> BOOTSTRAP
 --> Integration, Buttons, Colors, Padding, Margins, Navbars, Sliders, Modal
 --> Grid 
+
+--> Maintaining proper folder structure and global css using :root variables
+-> Github (push, pull, branches, merging, pull request)
+
+
+
+JAVASCRIPT
+
+-> Introduction to js
+-> console.log
+-> Data types
+-> Variable declaration
+
+-> Legal and illegal variable names
+
+      //illegal variables
+      // #name special chac can't be used in start and middle except $ _
+      // 2name can't use number in start
+      // can't use js reserved words
+      // can't give space between variable
+
+-> Arthmtic Operations (BODMAS)
+-> Pre and post inc
+-> Var, Let, Const
+-> 
+
+//  value re-assignment |  variable re-declaration
+// var:  true           |           true
+// let:  true           |           false
+// const: false         |           false
