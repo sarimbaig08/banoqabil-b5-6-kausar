@@ -101,3 +101,6 @@ JAVASCRIPT
 // var:  true           |           true
 // let:  true           |           false
 // const: false         |           false
+
+-> Prompt
+-> If / Else Condition
