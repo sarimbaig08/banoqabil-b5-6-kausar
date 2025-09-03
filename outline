@@ -95,13 +95,29 @@ JAVASCRIPT
 -> Arthmtic Operations (BODMAS)
 -> Pre and post inc
 -> Var, Let, Const
--> 
 
 //  value re-assignment |  variable re-declaration
 // var:  true           |           true
 // let:  true           |           false
 // const: false         |           false
 
+- var → function/global scoped, can re-declare & re-assign.
+- let → block scoped, cannot re-declare (in same scope), can re-assign.
+- const → block scoped, cannot re-declare, cannot re-assign.
+
 -> Prompt
 -> If / Else Condition
 -> Js Operators
+-> Hoisting
+
+-> ARRAY
+-> array declaration
+-> push, pop
+-> shift, unshift
+-> slice, splice
+-> loops
+
+-> DOM
+-> Functions
+-> Objects
+-> Apis
