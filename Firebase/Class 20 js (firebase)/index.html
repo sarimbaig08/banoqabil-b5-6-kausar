@@ -291,7 +291,7 @@
           <p class="card-subtitle">Join us today</p>
         </div>
 
-        <form>
+        <form id="createAccForm">
           <div class="form-group">
             <label for="signup-name" class="form-label">Full Name</label>
             <input
@@ -338,7 +338,7 @@
             />
           </div>
 
-          <button class="btn" id="createAccBtn">Create Account</button>
+          <button class="btn" type="submit">Create Account</button>
         </form>
 
         <div class="card-footer">
@@ -347,6 +347,8 @@
         </div>
       </div>
     </div>
+
+    <button onclick="btnListener()">click me</button>
 
     <script>
       // Add some interactive functionality

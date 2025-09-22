@@ -1,6 +1,7 @@
  // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
   import { getFirestore,collection, addDoc, getDocs   } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore.js";
+  import { getAuth,createUserWithEmailAndPassword  } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -15,36 +16,8 @@
   };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app)
+   const app = initializeApp(firebaseConfig);
+   const db = getFirestore(app)
+   const auth = getAuth(app);
 
-
-
-  const addUser = async()=>{
-  try {
-    const userObj = {
-        name: "Yasir",
-        email: "yasir@gmail.com",
-        pass:"yasir123"
-    }
-    const addUserDoc = await addDoc(collection(db,"users"), userObj)
-    console.log("addUserDoc",addUserDoc)
-  } catch (error) {
-    console.log("error",error)
-  }
-  }
-
-  let addBtn = document.getElementById("addBtn")
-  addBtn.addEventListener("click",addUser)
-
-    const getUsers = async () => {
-        const usersData = await getDocs(collection(db, "users"))
-        usersData.forEach(doc => {
-            console.log("doc",doc.data())
-            
-        });
-    }
-    let getUsersBtn = document.getElementById("getUsersBtn")
-  getUsersBtn.addEventListener("click",getUsers)
-
-
+export  {addDoc,collection,auth,db,createUserWithEmailAndPassword}
