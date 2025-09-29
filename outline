@@ -120,9 +120,14 @@ JAVASCRIPT
 -> Objects
 -> Promises
 -> Foreach loop
-
-
 -> DOM
 -> Functions
 -> Objects
 -> Apis
+
+-> Firebase project setup
+-> Firestore add and get document
+-> Login signup flow
+
+-> Local storage
+-> Email js
