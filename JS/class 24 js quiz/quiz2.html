@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .card {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+      }
+      .dark-theme .card {
+        background-color: navy;
+      }
+      .light-theme .card {
+        background-color: rgb(203, 203, 251);
+        border: 1px solid white;
+      }
+      .button {
+        border: none;
+        padding: 4px;
+      }
+      .dark-theme .button {
+        background-color: rgb(203, 203, 251);
+        color: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container dark-theme" id="container">
+      <div class="card">
+        <button class="button" onclick="lightMode()">light</button>
+        <button class="button" onclick="darkMode()">dark</button>
+      </div>
+    </div>
+
+    <script>
+      const lightMode = () => {
+        const container = document.getElementById("container");
+        container.classList.remove("dark-theme");
+        container.classList.add("light-theme");
+      };
+      const darkMode = () => {
+        const container = document.getElementById("container");
+        container.classList.remove("light-theme");
+        container.classList.add("dark-theme");
+      };
+    </script>
+  </body>
+</html>

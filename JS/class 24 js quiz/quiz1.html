@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" />
+      <button onclick="addTodo()">add</button>
+      <ol></ol>
+    </div>
+    <script>
+      //   var todoList = JSON.parse(window.localStorage.getItem("todoList")) || [];
+      //   console.log(todoList);
+      const addTodo = () => {
+        const todoList =
+          JSON.parse(window.localStorage.getItem("todoList")) || [];
+        const todo = document.querySelector("input");
+        todoList.push(todo.value);
+        localStorage.setItem("todoList", JSON.stringify(todoList));
+        // console.log(todoList);
+        updateUi();
+      };
+      const updateUi = () => {
+        const storedTodos = JSON.parse(window.localStorage.getItem("todoList"));
+        const list = document.querySelector("ol");
+        list.innerHTML = "";
+        storedTodos.forEach((element) => {
+          list.innerHTML += `<li>${element}</li>`;
+        });
+      };
+      updateUi();
+    </script>
+  </body>
+</html>
